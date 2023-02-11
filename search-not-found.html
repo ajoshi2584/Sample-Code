@@ -1,0 +1,299 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Cheerful | Learn ABout Stress</title>
+      <!-- Responsive Meta Tag -->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      
+      <!--CSS Resources-->
+      <link rel="stylesheet" id="bootstrap-css"  href="css/bootstrap.min.css" type="text/css" media="all" />
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+      <link rel="stylesheet" id="customcss-css"  href="css/custom.css" type="text/css" media="all" />
+      <link rel="stylesheet" id="country-css"  href="css/countrySelect.min.css" type="text/css" media="all" />
+      
+      <!-- Icons Link Tag -->
+      <link rel="icon" href="https://www.casepoint.com/wp-content/uploads/2017/07/cropped-cropped-icon-32x32.png" sizes="32x32" />
+      <link rel="icon" href="https://www.casepoint.com/wp-content/uploads/2017/07/cropped-cropped-icon-192x192.png" sizes="192x192" />
+      <link rel="apple-touch-icon" href="https://www.casepoint.com/wp-content/uploads/2017/07/cropped-cropped-icon-180x180.png" />
+      <link id="favicon" href="favicon.ico" rel="icon" type="image/x-icon" />
+</head>
+
+<body>
+      <!--HEADER-->
+      <header>
+            <section class="container">
+                  <nav class="navbar navbar-expand-xl">
+                    <div class="container-fluid">
+                      <a class="navbar-brand" href="index.html">
+                            <img src="img/logo.svg" alt="Chearful" >
+                      </a>
+                          
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                          
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mb-2 mb-lg-0">
+                          <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#!">Search</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#!">Clients</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#!">Practitioners</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#!">Well-Being Resources</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#!">Blogs</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#!">Forums</a>
+                          </li>
+                          <li class="nav-item dropdown">
+                           <form>
+                              <div class="form-item cntwrap">
+                                    <input id="country_selector" type="text">
+                              </div>
+                              <div class="form-item" style="display:none;">
+                                    <input type="text" id="country_selector_code" name="country_selector_code" data-countrycodeinput="1" readonly="readonly" placeholder="Selected country code will appear here" />
+                                    <label for="country_selector_code">...and the selected country code will be updated here</label>
+                              </div>
+                          </form>     
+                            
+                          </li>
+                          <li class="nav-item dropdown lndrp">
+                             <div class="dropdown">
+                                <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                  <img src="img/lang-ico.svg" alt="Language" > En
+                                </button>
+                                <ul class="dropdown-menu">
+                                  <li><a class="dropdown-item" href="#">Zh</a></li>
+                                  <li><a class="dropdown-item" href="#">Ja</a></li>
+                                  <li><a class="dropdown-item" href="#">Hi</a></li>
+                                </ul>
+                             </div> 
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link yellowbrd sgup" aria-current="page" href="#!">Sign Up</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link yellowbg lgn" aria-current="page" href="#!">Login</a>
+                          </li>      
+                        </ul>
+                      </div>
+                    </div>
+                  </nav>
+            </section>
+      </header>
+      
+      <!--HEADER-->
+      
+      <!--BREADCRUMBS -->
+      <section class="breadcrumb">
+            <div class="container">
+                  <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='%236c757d'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                      <li class="breadcrumb-item"><a href="#">Home</a></li>
+                      <li class="breadcrumb-item active" aria-current="page">Health Forum</li>
+                    </ol>
+                  </nav>
+                  
+                  <!--SEARCH -->
+                  <div class="row searchwrap">
+                        <div class="col-lg-6 d-flex">
+                              <form action="#!" class="flex-grow-1">
+                                    <div class="input-group mb-3">
+                                      <img class="srcico" src="img/Search.svg" alt="" />
+                                      <input type="text" class="form-control" placeholder="Services, Specialities, Categories or Wellbeing Resources" aria-label="Username" aria-describedby="basic-addon1">
+                                    </div>
+                              </form>
+                              <a href="#!" class="filterbtn"><img src="img/filter.svg" alt="" /></a>
+                        </div>
+                  </div>
+                  
+            </div>
+      </section>
+      <!--BREADCRUMBS -->
+      
+      <!-- SEARCH NOT FOUND -->
+      <section class="searchnotfoundwrap">
+            <div class="container">
+                  <div class="searchnf d-flex align-items-center justify-content-center flex-column">
+                        <div class="snficons">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="83" height="83" viewBox="0 0 83 83">
+                                <circle id="Ellipse_1" data-name="Ellipse 1" cx="41.5" cy="41.5" r="41.5" fill="#ffde6b"/>
+                              </svg>
+                              <svg class="sico" width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path class="gear" fill-rule="evenodd" clip-rule="evenodd" d="M37.9488 6.15384C20.3856 6.15384 6.15384 20.3742 6.15384 37.9084C6.15384 55.4428 20.3856 69.6632 37.9488 69.6632C46.7108 69.6632 54.6396 66.1272 60.3932 60.4C66.1732 54.6468 69.7436 46.6968 69.7436 37.9084C69.7436 20.3742 55.512 6.15384 37.9488 6.15384ZM0 37.9084C0 16.9688 16.9936 0 37.9488 0C58.904 0 75.8976 16.9688 75.8976 37.9084C75.8976 47.29 72.4828 55.8788 66.8332 62.496L79.0976 74.746C80.3 75.9472 80.3008 77.8952 79.1 79.0976C77.8992 80.3 75.9508 80.3008 74.7488 79.1L62.4728 66.8384C55.86 72.4372 47.2968 75.8168 37.9488 75.8168C16.9936 75.8168 0 58.848 0 37.9084Z" fill="#6F6D70"/>
+                              </svg>
+                              
+                              
+                        </div>
+                        <div class="text-center">
+                                    <h3>Sorry, no result found!</h3>
+                              </div>
+                  </div>
+            </div>
+      </section>
+      <!-- SEARCH NOT FOUND -->
+      
+      
+      <!-- FOOTER -->
+      <footer>
+            <img class="footerpattern" src="img/footerbg.svg" alt="" />
+            <div class="container">
+                  <div class="footercontact" data-aos="flip-left">
+                        <div class="row">
+                              <div class="col-lg-8 col-xl-5 m-auto">
+                                    <div class="whtbg">
+                                          <ul>
+                                                <li>
+                                                      <div class="imgfoot">
+                                                            <img src="img/mobile-black-ico.svg" alt="" />
+                                                      </div>
+                                                      <div class="txt1">
+                                                            Emergency Call
+                                                      </div>
+                                                      <div class="txt2">
+                                                            +1234 5678-9
+                                                      </div>
+                                                </li>
+                                                <li>
+                                                      <div class="ortxt">
+                                                            -OR-
+                                                      </div>
+                                                </li>
+                                                <li>
+                                                      <div class="imgfoot">
+                                                            <img src="img/email-black-ico.svg" alt="" />
+                                                      </div>
+                                                      <div class="txt1">
+                                                            24/7 Email Support
+                                                      </div>
+                                                      <div class="txt2">
+                                                            <a href="mailto:info@domain.Com">Info@Domain.Com</a>
+                                                      </div>
+                                                </li>
+                                          </ul>
+                                    </div>
+                              </div>
+                        </div>
+                  </div>
+                  <div class="row">
+                        <div class="col-md-6 col-lg-4 ">
+                              <a href="index.html"><img src="img/footerlogo.svg" alt="" /></a>
+                              <address>
+                                    <span><img src="img/location-ico.svg" alt=""/> 11233, Dubai, UAE</span>
+                                    <span><img src="img/mial-ico.svg" alt=""/> <a href="mailto:contact@chearful.com">contact@chearful.com</a></span>
+                                    <span><img src="img/mobile-ico.svg" alt=""/> +9714 22552255</span>
+                              </address>
+                              
+                              <section class="socialico">
+                                    <a href="#!"><img src="img/fb-ico.svg" alt="" /></a>
+                                    <a href="#!"><img src="img/twt-ico.svg" alt="" /></a>
+                                    <a href="#!"><img src="img/link-ico.svg" alt="" /></a>
+                                    <a href="#!"><img src="img/yt-ico.svg" alt="" /></a>
+                              </section>
+                        </div>
+                        <div class="col-md-3 col-lg-2">
+                              <div class="femnu">
+                                    <h3>Care</h3>
+                                    <ul>
+                                          <li><a href="#!">Individual Therapy</a></li>
+                                          <li><a href="#!">Couples Therapy</a></li>
+                                          <li><a href="#!">Family Therapy</a></li>
+                                          <li><a href="#!">Groups</a></li>
+                                    </ul>
+                              </div>
+                              
+                        </div>
+                        <div class="col-md-3 col-lg-2">
+                              <div class="femnu">
+                                    <h3>Help</h3>
+                                    <ul>
+                                          <li><a href="#!">Support</a></li>
+                                          <li><a href="#!">FAQ</a></li>
+                                          <li><a href="#!">Terms</a></li>
+                                          <li><a href="#!">Privacy</a></li>
+                                    </ul>
+                              </div>
+                              
+                        </div>
+                        <div class="col-md-6 col-lg-2">
+                              <div class="femnu">
+                                    <h3>Company</h3>
+                                    <ul>
+                                          <li><a href="#!">About</a></li>
+                                          <li><a href="#!">Careers</a></li>
+                                          <li><a href="#!">Contact</a></li>
+                                          <li><a href="#!">Referrals</a></li>
+                                    </ul>
+                              </div>
+                              
+                        </div>
+                        <div class="col-md-6 col-lg-2">
+                              <div class="femnu">
+                                    <h3>Follow Us</h3>
+                                    <ul>
+                                          <li><a href="#!">Facebook</a></li>
+                                          <li><a href="#!">Twitter</a></li>
+                                          <li><a href="#!">Linkedin</a></li>
+                                          <li><a href="#!">Youtube</a></li>
+                                    </ul>
+                              </div>
+                              
+                        </div>
+                  </div>
+            </div>
+      </footer>
+      <!-- FOOTER -->
+      
+      
+      <!-- Modal -->
+      <div class="modal fade modalform" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                  <div class="modalform">
+                        <div class="mb-3">
+                              <select class="form-select" aria-label="Default select example">
+                                <option selected>Select Specialty</option>
+                                <option value="1">Specialty 1</option>
+                                <option value="2">Specialty 2</option>
+                                <option value="3">Specialty 3</option>
+                              </select>
+                        </div>      
+                        
+                        <div class="mb-3">
+                          <input type="text" class="form-control" id="questiontitle" placeholder="Question Title">
+                        </div>
+                        
+                        <div class="mb-3">
+                          <textarea class="form-control" id="questiondescription" rows="3" placeholder="Your Question Description"></textarea>
+                        </div>
+                  </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Ask Free Query</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!--JS Resources-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js" integrity="sha512-jGsMH83oKe9asCpkOVkBnUrDDTp8wl+adkB2D+//JtlxO4SrLoJdhbOysIFQJloQFD+C4Fl1rMsQZF76JjV0eQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script src="js/custom.js"></script>
+      <script src="js/countrySelect.js"></script>
+</body>
+</html>
